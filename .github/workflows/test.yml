@@ -7,4 +7,5 @@ jobs:
       - uses: docker://nesachirou/jlang:903
         with:
           args: "test.ijs"
+      - run: cat test.txt
 
